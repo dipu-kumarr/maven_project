@@ -1,4 +1,5 @@
-<build>
+<project>
+    <build>
     <plugins>
         <!-- Maven Compiler Plugin -->
         <plugin>
@@ -66,6 +67,7 @@
         </plugin>
     </plugins>
 </build>
+</project>
 
 <distributionManagement>
     <repository>
@@ -73,3 +75,4 @@
         <url>http://your-maven-repo/releases</url>
     </repository>
 </distributionManagement>
+    
